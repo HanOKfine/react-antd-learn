@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { PageHeaderWrapper } from "@ant-design/pro-layout";
 import SchemaForm, { Field, Submit, Reset, FormButtonGroup, FormLayout } from "@uform/antd";
-import { Row, Col, message, Upload, Icon, Button } from 'antd'
+import  Icon  from "@ant-design/icons";
+import { Row, Col, message, Upload, Button } from 'antd'
 import { connect } from "dva";
 import { Dispatch } from "redux";
 import { CascaderOptionType } from 'antd/lib/cascader'
@@ -222,7 +223,7 @@ const CreateProduct = (props: CreateProductProps) => {
                 suffix: '件'
               }}
             />
-            <Row type="flex" align="top">
+            <Row  align="top">
               <Col>产品图片：</Col>
               <Col>
               {/* // uploadList */}

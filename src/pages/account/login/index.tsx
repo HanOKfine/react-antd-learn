@@ -1,4 +1,4 @@
-import { Icon } from "antd";
+import  Icon  from "@ant-design/icons";
 import { formatMessage } from "umi-plugin-react/locale"; // FormattedMessage,
 import React, { Component } from "react";
 import SchemaForm, { Field, FormButtonGroup, Submit, Reset } from "@uform/antd";
